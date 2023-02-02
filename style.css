@@ -1,0 +1,26 @@
+header {
+  background-color: #f7f2b4;
+  height: 90px;
+}
+
+.list1 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 52px 12px 12px 12px;
+  overflow-x: auto;
+  background-color: #0076c2;
+}
+
+.lists {
+  in-width: 750px;
+  width: 750px;
+  padding: 200px;
+  border-radius: 20px;
+  background-color: #e2e4e6;
+}
+
+.lists:nth-child(n + 2) {
+  margin-left: 100px;
+}
