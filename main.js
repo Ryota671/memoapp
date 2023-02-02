@@ -1,6 +1,7 @@
 var e = document.getElementsByClassName("add-btn");
 
 e[0].addEventListener("click", function () {
+
   addElement();
   trashBox();
   checkBox();
@@ -53,4 +54,5 @@ function checkBox() {
       this.remove();
     });
   }
+
 }
